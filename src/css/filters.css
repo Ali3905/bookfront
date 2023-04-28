@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.fliters_container{
+    width: 23vw;
+}
+
+.filters_facilities_container{
+    border-top: 1px  solid rgb(186, 186, 186);;
+    padding: 10px 0;
+}
+
+.filters_facilities_container h2{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 550;
+    margin: 0 1.5rem;
+}
+
+.filters_facilities{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px  solid rgb(186, 186, 186);
+    padding: 5px 15px;
+}
+
+.filters_facilities input{
+    margin-left: 1.7rem;
+    margin-right: 5px;
+}
+
+.filters_price_container{
+    border-bottom: 1px solid rgb(186, 186, 186);;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.filters_price_container h2{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 550;
+    margin: 0 1.5rem;
+}
+.filters_price_container button{
+    background-color: rgb(63 179 45);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    /* width: 5.5rem; */
+    padding: 5px 10px;
+    font-weight: 550;
+    /* align-self: flex-end;
+    margin: 3px 30px; */
+}
+
+.filters_price{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.filters_price input{
+    margin-top: 5px;
+    padding: 3px 5px;
+    width: 5rem;
+    height: 2.7rem;
+}
+
+.filters_bed_container{
+    border-bottom: 1px solid rgb(186, 186, 186);;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.filters_bed{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.filters_bed input{
+    margin-top: 5px;
+    padding: 3px 5px;
+    width: 5rem;
+    height: 2.7rem;
+}
+
+.filters_bed_container h2{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 550;
+    margin: 0 1.5rem;
+}
+.filters_bed_container button{
+    background-color: rgb(63 179 45);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    /* width: 5.5rem; */
+    padding: 5px 10px;
+    font-weight: 550;
+    /* align-self: flex-end;
+    margin: 3px 30px; */
+}
+
+.filters_star_container h2{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 550;
+    margin: 0 1.5rem;
+}
+
+.filters_star{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px  solid rgb(186, 186, 186);;
+    padding: 5px 15px;
+}
+
+.filters_star input{
+    margin-left: 1.7rem;
+    margin-right: 5px;
+}
+
+.filters_star i{
+    color: orange;
+}
